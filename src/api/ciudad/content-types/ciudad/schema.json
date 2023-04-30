@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ciudades",
+  "info": {
+    "singularName": "ciudad",
+    "pluralName": "ciudades",
+    "displayName": "Ciudades"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "estado_id": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::departamento.departamento"
+    }
+  }
+}

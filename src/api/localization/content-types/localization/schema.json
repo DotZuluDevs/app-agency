@@ -4,7 +4,8 @@
   "info": {
     "singularName": "localization",
     "pluralName": "localizations",
-    "displayName": "Localizations"
+    "displayName": "Localizations",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,9 +20,6 @@
     },
     "state": {
       "type": "boolean"
-    },
-    "uuid": {
-      "type": "uid"
     }
   }
 }

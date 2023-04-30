@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipo_de_documentos",
+  "info": {
+    "singularName": "tipo-de-documento",
+    "pluralName": "tipo-de-documentos",
+    "displayName": "Tipos de documento"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
